@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-display: none;
+    
+    
+
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top:10px solid aquamarine;
+}
+
+.logo{
+    text-align: center;
+}
+img{
+    width: 35px;
+    
+   
+}
+
+nav ul {
+    display:flex ;
+    list-style: none;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+  
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.naslov{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    padding:0px 0px 20px 40px;
+    font-size:20px;
+}
+#nadros{
+    font-size:xx-large;
+    margin-left: 15px;
+}
+
+.new a{
+    padding-top: 5px;
+    border-radius:15px;
+    width: 50px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.button a{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 5px; ;
+    text-align: center;
+    border: none;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+nav ul li a:hover{
+    opacity: 0.4;
+    background-color:aqua;
+    text-decoration:underline;
+}
